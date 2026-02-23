@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-23T11:28:55 IST" name="Suite" finished-at="2026-02-23T11:29:46 IST" duration-ms="50976">
+    <groups>
+      <group name="Purchase">
+        <method signature="PurchaseOrder.SubmitOrder(java.util.HashMap)[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" name="SubmitOrder" class="eCommerceSite.PurchaseOrder"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2026-02-23T11:28:55 IST" name="Validation Test" finished-at="2026-02-23T11:29:09 IST" duration-ms="13890">
+      <class name="eCommerceSite.EorrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerceSite.EorrorValidation@3646a422]" started-at="2026-02-23T11:28:55 IST" name="launchApplication" finished-at="2026-02-23T11:29:05 IST" duration-ms="10439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:eCommerceSite.EorrorValidation@3646a422]" started-at="2026-02-23T11:29:05 IST" name="LoginErrorValidation" finished-at="2026-02-23T11:29:08 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerceSite.EorrorValidation@3646a422]" started-at="2026-02-23T11:29:08 IST" name="tearDown" finished-at="2026-02-23T11:29:09 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eCommerceSite.EorrorValidation -->
+    </test> <!-- Validation Test -->
+    <test started-at="2026-02-23T11:28:55 IST" name="Submit Order Test" finished-at="2026-02-23T11:29:46 IST" duration-ms="50976">
+      <class name="eCommerceSite.PurchaseOrder">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:28:55 IST" name="launchApplication" finished-at="2026-02-23T11:29:07 IST" duration-ms="11634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:29:07 IST" name="SubmitOrder" data-provider="getData" finished-at="2026-02-23T11:29:22 IST" duration-ms="15195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rose@12345, item=ZARA COAT 3, email=rosemerry@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:29:22 IST" name="tearDown" finished-at="2026-02-23T11:29:23 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:29:23 IST" name="launchApplication" finished-at="2026-02-23T11:29:26 IST" duration-ms="3029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:29:26 IST" name="SubmitOrder" data-provider="getData" finished-at="2026-02-23T11:29:45 IST" duration-ms="19700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=JohnFoe@123, item=ADIDAS ORIGINAL, email=johnfoe@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:eCommerceSite.PurchaseOrder@21282ed8]" started-at="2026-02-23T11:29:45 IST" name="tearDown" finished-at="2026-02-23T11:29:46 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eCommerceSite.PurchaseOrder -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
