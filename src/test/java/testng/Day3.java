@@ -20,6 +20,8 @@ public class Day3 {
 	public void API() {
 		System.out.println("api");
 		System.out.println("api test");
+		System.out.println("api 2");
+		System.out.println("api test 2");
 	}
 
 	@Parameters({ "URL" })
